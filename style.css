@@ -1,10 +1,11 @@
 body {
     margin: 0;
-    padding: 20px; 
+    padding: 20px;
     background-color: #f4f7f6;
     display: flex;
     flex-direction: column;
-    align-items: center;             
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -13,8 +14,10 @@ body {
     gap: 20px;
     background-color: #ffffff;
     padding: 25px;
-    border-radius: 12px;    
-    width: 80%;    
+    border-radius: 12px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .box {
@@ -27,29 +30,71 @@ body {
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 8px;        
-    text-align: center; 
+    border-radius: 8px;    
+    transition: background-color 0.3s ease;
 }
 
 .box:hover {
-    background-color: black;    
+    background-color: black;
 }
-
 
 .b {
     background-color: white;
     padding: 30px;
-    border-radius: 12px;    
+    border-radius: 12px;
     margin-top: 30px;
     width: 80%;
-    max-width: 900px; 
-    line-height: 1.7; 
-    text-align: justify; 
+    max-width: 900px;
+    line-height: 1.7;    
     box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.b h4 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .b p {
     margin: 0;
     font-size: 20px;
     color: #555;
+}
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    padding: 15px 20px;     
+    border-radius: 8px;    
+    width: 100%;
+    box-sizing: border-box;        
+}
+
+.form-group label {    
+    color: #555;
+    margin-bottom: 8px;    
+}
+
+.botao-contato {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 14px;    
+    width: auto;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.botao-contato:hover {
+    background-color: black;        
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;    
+    padding: 15px;
 }
