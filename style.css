@@ -15,9 +15,8 @@ body { /*Definições gerais*/
     background-color: #ffffff;
     padding: 25px;
     border-radius: 12px;
-    width: 80%;
-    max-width: 1000px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 2000px;    
 }
 
 .box {
@@ -30,8 +29,7 @@ body { /*Definições gerais*/
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 8px;    
-    transition: background-color 0.3s ease;
+    border-radius: 8px;        
 }
 
 .box:hover {  /* Utilizado para alterar a cor quando o mouse for passado*/
