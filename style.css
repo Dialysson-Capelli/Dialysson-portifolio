@@ -1,4 +1,4 @@
-body {
+body { /*Definições gerais*/
     margin: 0;
     padding: 20px;
     background-color: #f4f7f6;
@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
+.menusup {  /* Organização do Menu superior*/
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
@@ -34,7 +34,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.box:hover {
+.box:hover {  /* Utilizado para alterar a cor quando o mouse for passado*/
     background-color: black;
 }
 
@@ -78,7 +78,7 @@ body {
     margin-bottom: 8px;    
 }
 
-.botao-contato {
+.botao-contato { /*Decidi efetuar caracterísitcas iguais ao menu superior para deixar o design bonito*/
     background-color: #007bff;
     color: white;
     padding: 15px 30px;
@@ -89,7 +89,7 @@ body {
     margin-top: 25px;
 }
 
-.botao-contato:hover {
+.botao-contato:hover { /* Utilizado para alterar a cor quando o mouse for passado*/
     background-color: black;        
 }
 
